@@ -12,6 +12,11 @@ This project provides a web interface for running JMeter stress tests within a K
 * **Easy configuration:**  Configure JMeter tests with a simple and intuitive interface.
 * **Scalability:**  Scale your JMeter tests horizontally by leveraging Kubernetes resources.
 
+## Screenshot
+
+### Start page
+![Jmter-k8s-ui](/web/images/upload.jpg)
+
 ## Getting Started
 
 1. **Prerequisites:**
