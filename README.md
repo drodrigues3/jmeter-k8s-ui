@@ -4,6 +4,10 @@
 
 This project provides a web interface for running JMeter stress tests within a Kubernetes cluster. It simplifies the process of configuring and executing JMeter tests, making it easier to perform load testing on your applications deployed in a Kubernetes environment.
 
+## Architecture
+
+![Architecture](/docs/Overview.drawio.svg)]
+
 ## Features
 
 * **Web-based interface:**  A user-friendly web interface for creating, configuring, and running JMeter tests.
