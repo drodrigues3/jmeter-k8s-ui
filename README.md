@@ -25,7 +25,13 @@ This project provides a web interface for running JMeter stress tests within a K
 
 1. **Prerequisites:**
    * Kubernetes cluster
-   * TBD
+   * NGINX Ingress controller
+   ```
+   # Install NGINX Ingress controller
+   helm upgrade --install ingress-nginx ingress-nginx \
+   --repo https://kubernetes.github.io/ingress-nginx \
+   --namespace ingress-nginx --create-namespace
+   ```
 
 2. **Installation:**
    * Clone this repository: `git clone https://github.com/your-username/jmeter-k8s-ui.git`
